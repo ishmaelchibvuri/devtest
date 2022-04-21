@@ -1,0 +1,16 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHAgMJ5UM2n+SjXsV9iaRK8UipdCbV189CGjtMtK3sCvKPYGym2Rpqvtq+nBM+0bcA77YtRAeGvl1rW/TeJHNf/TcK+B46PzeIr8EEkKF19JT4q0CNM3Ry8SfhhKMLauaPRFA8WBKumdsKw780E8/RQZUSxfR8BB7qT5gUp9OgsXgCgIB+STIUfRbo0ywYMMqQW/MHJgyIz0QXiVevNRG2tOxqd6WHY82Fsd+MQZ2t/k5hVuuQljI9wVSguMPM7uUHHlzPbcCrlZmgAZq4w3kLZfUzBW26gPEdKZo+1N1/aJ+Tv2nRF0eI6z8KGgAet7BZ8udgRGvkcvkVZ7yjsdC3 rsa-key-20220421
+hostname: rancheros.local.cyberelftechnologies.com
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 192.168.1.37/24
+        gateway: 192.168.1.1
+        mtu: 1500
+        dhcp: false
+    dns:
+      nameservers:
+        - 192.168.1.135
+        - 8.8.8.8
+        
